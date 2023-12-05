@@ -1,9 +1,7 @@
-# adventOfCode2023
+# 🎄🎉[Advent of Code](https://adventofcode.com/) 🎅🦌
 
-Done in python3
-
-| Day | Part | Time (seconds) |   |   |
-|-----|------|------|---|---|
-| 1   | 1    |0.004|   |   |
-| 1   | 2     |0.015|   |   |
-| 3   |      |      |   |   |
+| Day | Part | Time (seconds) |
+|-----|------|------|
+| 1   | 1    |0.004|
+| 1   | 2     |0.015|
+| 3   |      |      |
