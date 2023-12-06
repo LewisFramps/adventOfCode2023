@@ -1,12 +1,17 @@
 import time
 
-
 def get_input(day, example=False):
     with open("Inputs/input_" + (day if not example else day + "_example")) as f:
         lines = list(map(lambda line: line.strip(), f))
     f.close()
     return lines
 
+def strReplace(str, index, replacement):
+    return str[:index] + replacement + str[index + 1:]
+
+def print2d (arr):
+    for row in arr:
+        print(row)
 
 num_map = {
             0: "zero",
