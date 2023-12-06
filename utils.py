@@ -21,7 +21,7 @@ num_map = {
             9: "nine"
         }
 
-inverse_num_map = {v: str(k) for k, v in num_map.items()}
+inverse_num_map = {v: k for k, v in num_map.items()}
 
 def num_to_eng(n):
     try:
